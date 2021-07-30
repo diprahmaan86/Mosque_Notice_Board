@@ -1,0 +1,129 @@
+/* All Common CSS Starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS Ends */
+/* Banner Part Starts */
+
+#banner{
+    background: url(../images/pexels-asifgraphy-4348424.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overly{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(0, 0, 0, 0.555);
+}
+.banner_text h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 20px;
+}
+.banner_text h4{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 20px;
+}
+.banner_text{
+    padding-bottom: 30px;
+}
+.ban_itm{
+    padding: 30px 10px;
+    background: rgba(36, 23, 23, 0.432);
+    border-radius: 5px;
+}
+.ban_itm h4{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 15px;
+}
+.ban_itm h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+}
+.ban_itms{
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.822);
+    border-radius: 5px;
+}
+.ban_itms h3{
+    color: #111;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+.ban_itms h4{
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+.ban_itms h5{
+    color: #111;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    transition: .5s;
+}
+.banner_Item{
+    padding: 20px 10px;
+    background: rgba(36, 23, 23, 0.432);
+    border-radius: 5px;
+}
+.banner_Item h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+.banner_Item h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    padding-bottom: 15px;
+    transition: .5s;
+}
+.banner_Item:hover{
+    background: rgba(255, 255, 255, 0.822);
+}
+.banner_Item:hover h3{
+    color: #111;
+}
+.banner_Item:hover h4{
+    color: #111;
+}
+
+/* Banner Part Ends */
